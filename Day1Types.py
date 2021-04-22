@@ -14,11 +14,11 @@ print(type(l))
 t = (1, 2, 3) #tuple #parentheses
 print(type(t)) 
 
-d = {"name": "savitha", "college": "VelTech college"} # curly braces
+d = {"name": "savitha", "college": "VelTech college"} # curly braces # dict #key "name" #value "savitha"
 print(type(d)) #dict
 
 b = True
 print(type(b)) #Boolean
 
 a = {1, 2, 3, 1, 2, 4, 5} # curly braces
-print(type(a))  # set
+print(type(a))  # set # results is not ordered  #duplicates is removed.
