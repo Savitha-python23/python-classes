@@ -14,3 +14,8 @@ l2 = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 # print(l1)
 for x in l2: l1.append(x)
 print(l1)
+
+l1 = [1, 2, 3]
+# print(l1.pop(), l1)
+l1.pop()
+print(l1)
