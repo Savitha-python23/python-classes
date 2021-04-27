@@ -30,6 +30,10 @@ B = {100, 30, 80, 40, 60}
 print (A.difference(B))
 print (B.difference(A))
 
+x = {"hello", 9, 10, "hi"}
+y = {9, "hi", 6,  "bye"}
+print(x.difference(y))
+print(y.difference(x))
 
 
 
