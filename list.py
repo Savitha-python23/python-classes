@@ -28,3 +28,6 @@ print(l3)
 # print(l1.pop(), l1)
 # l1.pop()
 # print(l1)
+
+# to create fast list
+
