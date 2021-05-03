@@ -5,5 +5,5 @@ print(j.intersection(k))  # method 1
 
 a = [1, 2, 3]
 b = [1, 4, 6] # method 2 using set
-
+print(set(a).intersection(b))
 
