@@ -16,3 +16,18 @@
 def func(Num=100):  # function override 
 	print(Num)
 func(200)
+#---------------------------------------
+
+def even(N):    #Method 1
+	for i in range(N):      # for value from 0 to 99 for even output 
+		if i % 2 ==0:       # to get odd output give ==1 for odd o/p
+			print(i)
+even(100)
+
+#----------------------------------------------------------
+
+def even(N):    #Method 2
+	for i in range(1, N+1):      # for value from 1 to 100 use range from 1 to N+1
+		if i % 2 ==0:
+			print(i)
+even(100)
