@@ -17,3 +17,7 @@ def sqt(element):
 	return element * element
 data = list(map(sqt, [1,2,3,4])) #-------- method 3 using map
 print(data)
+
+#-------------------------------------------
+
+
